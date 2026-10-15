@@ -1,0 +1,20 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+body { margin: 0; background: #0b0f14; color: #e8eef5; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.header { margin-bottom: 18px; }
+h1 { margin: 0 0 6px; font-size: 28px; }
+.subtitle { margin: 0; opacity: 0.75; }
+.grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+
+.card { background: #121a24; border: 1px solid #223044; border-radius: 14px; padding: 16px; }
+.card h2 { margin: 0 0 12px; font-size: 18px; }
+
+.kv { margin: 0; }
+.kv > div { display: grid; grid-template-columns: 160px 1fr; gap: 12px; padding: 8px 0; border-top: 1px solid #223044; }
+.kv > div:first-child { border-top: 0; }
+dt { font-weight: 600; opacity: 0.85; }
+dd { margin: 0; overflow-wrap: anywhere; }
+
+.footer { margin-top: 18px; opacity: 0.7; }
+code { background: #0b0f14; padding: 2px 6px; border-radius: 8px; border: 1px solid #223044; }
