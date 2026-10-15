@@ -1,0 +1,20 @@
+++++++++++++++++++++++++
+Démarrage du script Grabber
+++++++++++++++++++++++++
+========================
+Récupération des informations sur les paquets
+========================
+----------------------------------------------------------------------------
+Copie du fichier de configuration /etc/apt/sources.list
+-------------------
+----------------------------------------------------------------------------
+Récupération de la liste des paquets installés
+--------------------
+[OK]: Fichier apt-installed.cmd généré
+[OK]: Fichier /home/rayan/workspace/grabber//apt-installed.cmd généré
+[OK]: Fichier /home/rayan/workspace/grabber//lsusb.cmd généré
+[OK]: Fichier /home/rayan/workspace/grabber//lscpu.cmd généré
+[OK]: Fichier /home/rayan/workspace/grabber//lspci.cmd généré
+[OK]: Fichier /home/rayan/workspace/grabber//systemd-analyze.cmd généré
+[OK]: Fichier /home/rayan/workspace/grabber//systemd-blame.cmd généré
+[OK]: Fichier /home/rayan/workspace/grabber//lsmem.cmd généré

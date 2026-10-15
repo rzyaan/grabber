@@ -1,0 +1,19 @@
+++++++++++++++++++++++++
+Démarrage du script Grabber
+++++++++++++++++++++++++
+========================
+Récupération des informations sur les paquets
+========================
+----------------------------------------------------------------------------
+Copie du fichier de configuration /etc/apt/sources.list
+-------------------
+----------------------------------------------------------------------------
+Récupération de la liste des paquets installés
+--------------------
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+[ECHEC]: Erreur à la génération de 0 => Code de sortie 1
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
