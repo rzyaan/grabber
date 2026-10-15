@@ -1,12 +1,11 @@
 # Grabber
 
-Application web qui **collecte et centralise des informations système et réseau** de machines (Linux, GameShell…) puis les affiche dans une interface simple. [À COMPLÉTER : en une phrase, à quoi sert ton projet]
-
+Application web qui **collecte et centralise des informations système et réseau** de machines (Linux, GameShell…) puis les affiche dans une interface simple.
 Projet réalisé dans le cadre du Garage Numérique.
 
 ## Fonctionnalités
 
-- Collecte automatique d'informations système via un script shell (`grabber.sh`) : températures (`sensors`), mémoire (`free -h`)… [À COMPLÉTER]
+- Collecte automatique d'informations système via un script shell (`grabber.sh`) : températures (`sensors`), mémoire (`free -h`)…
 - Interface web pour consulter les données récupérées
 - Formulaires pour ajouter ou configurer les machines à surveiller
 - Sauvegarde de la configuration d'une GameShell (`gameshell-save.sh`)
@@ -14,7 +13,7 @@ Projet réalisé dans le cadre du Garage Numérique.
 
 ## Technologies
 
-- **Backend** : Python, Flask [À VÉRIFIER], SQLAlchemy [À VÉRIFIER]
+- **Backend** : Python, Flask, SQLAlchemy
 - **Frontend** : HTML (templates Jinja), CSS
 - **Scripts** : Bash
 - **Déploiement** : Docker, Docker Compose
@@ -63,7 +62,6 @@ python3 app.py
 
 1. Lance l'application.
 2. Ouvre-la dans ton navigateur.
-3. [À COMPLÉTER : ajouter une machine, lancer une collecte, consulter les résultats]
 
 Pour lancer la collecte à la main :
 
