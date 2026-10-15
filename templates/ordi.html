@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Infos machine</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Infos machine</h1>
+      <p class="subtitle">Données reçues via /endpoint</p>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Hardware</h2>
+        <dl class="kv">
+          <div><dt>Hostname</dt><dd>{{ ordi.hostname }}</dd></div>
+          <div><dt>MAC</dt><dd>{{ ordi.mac_address }}</dd></div>
+          <div><dt>MB Serial</dt><dd>{{ ordi.mb_serial }}</dd></div>
+          <div><dt>Châssis Serial</dt><dd>{{ ordi.chassis_serial }}</dd></div>
+          <div><dt>CPU</dt><dd>{{ ordi.cpu }}</dd></div>
+          <div><dt>CPU ID</dt><dd>{{ ordi.cpu_id }}</dd></div>
+          <div><dt>Cores</dt><dd>{{ ordi.cpu_cores_number }}</dd></div>
+          <div><dt>Threads</dt><dd>{{ ordi.cpu_threads_number }}</dd></div>
+          <div><dt>Fréquence (min)</dt><dd>{{ ordi.cpu_frequency_min }}</dd></div>
+          <div><dt>Fréquence (actuelle)</dt><dd>{{ ordi.cpu_frequency_cur }}</dd></div>
+          <div><dt>Fréquence (max)</dt><dd>{{ ordi.cpu_frequency_max }}</dd></div>
+          <div><dt>GPU</dt><dd>{{ ordi.gpu_model }}</dd></div>
+          <div><dt>RAM slots</dt><dd>{{ ordi.ram_slots_number }}</dd></div>
+          <div><dt>RAM barrettes</dt><dd>{{ ordi.ram_number }}</dd></div>
+          <div><dt>RAM taille</dt><dd>{{ ordi.ram_size }}</dd></div>
+          <div><dt>RAM gen</dt><dd>{{ ordi.ram_gen }}</dd></div>
+          <div><dt>Stockage total</dt><dd>{{ ordi.stockage_total }}</dd></div>
+        </dl>
+      </section>
+
+      <section class="card">
+        <h2>Software</h2>
+        <dl class="kv">
+          <div><dt>OS</dt><dd>{{ ordi.os }}</dd></div>
+          <div><dt>Arch</dt><dd>{{ ordi.arch }}</dd></div>
+          <div><dt>Desktop</dt><dd>{{ ordi.desktop }}</dd></div>
+          <div><dt>WM</dt><dd>{{ ordi.wm }}</dd></div>
+          <div><dt>Kernel</dt><dd>{{ ordi.kernel }}</dd></div>
+        </dl>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <p>Route: <code>/ordi1</code> | POST: <code>/endpoint</code></p>
+    </footer>
+  </div>
+</body>
+</html>
